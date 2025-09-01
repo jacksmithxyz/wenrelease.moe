@@ -9,7 +9,6 @@ const Anime = defineTable({
     releaseDate: column.date(),
     coverImage: column.text(),
     anilistUrl: column.text(),
-    streamingInfo: column.json()
   }
 })
 
