@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import "@fontsource-variable/hubot-sans";
+import Header from "../components/organisms/Header.astro";
 ---
 
 <html lang="en">
@@ -13,6 +14,7 @@ import "@fontsource-variable/hubot-sans";
     </head>
     <body class="bg-neutral-50">
         <div class="p-8">
+            <Header />
             <slot />
         </div>
     </body>
